@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Pensado para uso en terreno: fondo claro y alto contraste bajo el sol. */
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--color-slate-100);
+  color: var(--color-slate-900);
+  -webkit-font-smoothing: antialiased;
+}

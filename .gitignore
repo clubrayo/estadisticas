@@ -1,0 +1,16 @@
+# Dependencias y compilados
+node_modules/
+dist/
+
+# Variables de entorno locales (NUNCA subir)
+.env
+.env.*
+!.env.example
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log
